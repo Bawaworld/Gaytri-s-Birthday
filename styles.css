@@ -1,0 +1,83 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.heart {
+  font-size: 28px;
+  vertical-align: middle;
+}
+
+main {
+  text-align: center;
+}
+
+.gift-box {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  position: relative;
+  background-color: #f9e3cf;
+  border: 5px solid #e0c5a5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.open-box-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e0c5a5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+}
+
+.gift-content {
+  display: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.gift-content p {
+  margin-bottom: 10px;
+}
+
+.gift-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
